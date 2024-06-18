@@ -1,4 +1,5 @@
 dw_commodities:
+  target: dev
   outputs:
     dev:
       type: postgres
