@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: trusted_commodities
+    description: "Trusted table to hold merged data from commodities"
+    columns:
+      - name: date
+        description: "Transaction date"
+      - name: symbol
+        description: "Commoditie symbol"
+      - name: closing_price
+        description: "Commoditie closing price"
+      - name: action
+        description: "Trnsaction type (buy/sell)"
+      - name: quantity
+        description: "Transaction quanity"
+      - name: value
+        description: "Transaction value"
+      - name: balance
+        description: "Gain or loss in the transaction"

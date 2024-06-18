@@ -14,7 +14,7 @@ sources:
           - name: simbolo
             description: "Commoditie symbol"
 
-      - name: movimentacao_commodities
+      - name: commodities_sell
         description: "Seed table"
         columns:
           - name: date
@@ -24,4 +24,4 @@ sources:
           - name: action
             description: "Transaction type (buy/sell)"
           - name: quantity
-            description: "Transaction quanity"
+            description: "Transaction quantity"
