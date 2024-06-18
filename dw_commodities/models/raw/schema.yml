@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: raw_commodities
+    description: "Staging table for commodities data"
+    columns:
+      - name: data
+        description: "Transaction date as AAAA-MM-DD"
+      - name: closing_price
+        description: "Closing price formatted as decimal 4.2"
+      - name: symbol
+        description: "Commoditie symbol"
+  - name: raw_commodities_sell
+    description: "Staging table for commodities internal selling data"
+    columns:
+      - name: data
+        description: "Transaction date as AAAA-MM-DD"
+      - name: symbol
+        description: "Commoditie symbol"
+      - name: acao
+        description: "Transaction type (buy/sell)"
+      - name: quantidade
+        description: "Amount transacted"

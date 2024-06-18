@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: dw_sales
+    schema: public
+    tables:
+      - name: commodities
+        description: "Table with the commodities price history"
+        columns:
+          - name: Date
+            description: "Date of price"
+          - name: Close
+            description: "Commoditie closing price"
+          - name: simbolo
+            description: "Commoditie symbol"
+
+      - name: movimentacao_commodities
+        description: "Seed table"
+        columns:
+          - name: date
+            description: "Transaction date"
+          - name: symbol
+            description: "Commoditie symbol"
+          - name: action
+            description: "Transaction type (buy/sell)"
+          - name: quantity
+            description: "Transaction quanity"
