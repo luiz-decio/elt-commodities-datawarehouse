@@ -21,7 +21,7 @@ for n in range(10):
             'date' : data_day,
             'symbol' : random.choice(comodities_list),
             'action' : random.choice(['sell', 'buy']),
-            'quantity' : random.randint(1, 200)
+            'quantity' : random.randint(10, 80)
         }
         df = pd.DataFrame(data=data, index=[0])
 
@@ -30,4 +30,4 @@ for n in range(10):
         else: 
             df_generated_data = pd.concat([df_generated_data, df])
 
-df_generated_data.to_csv("dw_commodities/seeds/comodities_sell.csv", index=False)
+df_generated_data.to_csv("dw_commodities/seeds/commodities_sell.csv", index=False)

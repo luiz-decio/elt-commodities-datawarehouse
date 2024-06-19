@@ -134,3 +134,31 @@ https://docs.getdbt.com/docs/configure-your-profile
 [0m16:54:28.878483 [debug] [MainThread]: Command `dbt debug` failed at 16:54:28.877493 after 0.21 seconds
 [0m16:54:28.879483 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021AF4F95550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021AFB4C7110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021AFB4C7490>]}
 [0m16:54:28.880487 [debug] [MainThread]: Flushing usage events
+[0m10:56:11.319703 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020164697450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020164697490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020164695610>]}
+
+
+============================== 10:56:11.323702 | b60e57c5-de38-4c2c-bf5c-c80445e7d2c6 ==============================
+[0m10:56:11.323702 [info ] [MainThread]: Running with dbt=1.8.2
+[0m10:56:11.325213 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '../', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt docs generate', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:56:11.326738 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Dell\Desktop\vs\portfolio_site\projects\elt-commodities-datawarehouse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m10:56:11.328744 [debug] [MainThread]: Command `dbt docs generate` failed at 10:56:11.327746 after 0.08 seconds
+[0m10:56:11.328744 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201646B3C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201646B3D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020164643A50>]}
+[0m10:56:11.329771 [debug] [MainThread]: Flushing usage events
+[0m10:57:15.926307 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000199CE0452D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000199CDFF1CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000199CDD39DD0>]}
+
+
+============================== 10:57:15.932313 | 9898c3ed-3c11-4aad-88d8-ecd18e4c7718 ==============================
+[0m10:57:15.932313 [info ] [MainThread]: Running with dbt=1.8.2
+[0m10:57:15.934325 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '../', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt docs generate', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:57:15.936635 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Dell\Desktop\vs\portfolio_site\projects\elt-commodities-datawarehouse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m10:57:15.939646 [debug] [MainThread]: Command `dbt docs generate` failed at 10:57:15.939646 after 0.10 seconds
+[0m10:57:15.940648 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000199CE03B110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000199CDFF3950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000199CDFF3E90>]}
+[0m10:57:15.941649 [debug] [MainThread]: Flushing usage events
